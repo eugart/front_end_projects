@@ -1,0 +1,469 @@
+*{
+  margin-right: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Maya;
+  src:url(fonts/Maya.ttf);
+}
+
+@font-face {
+  font-family: Annabelle;
+  src: url(fonts/Annabelle.ttf);
+}
+
+@font-face {
+  font-family: BebasNeue;
+  src:url(fonts/BebasNeue.ttf);
+}
+
+#header_line{
+  height: 30px;
+  width: 99.5%;
+  background-color: #efefef;
+  font-family: Maya;
+  margin-right: 5px;
+}
+
+#left{
+  float: left;
+  height: inherit;
+}
+
+
+#left p{
+  display: inline;
+  vertical-align: sub;
+  text-decoration: underline;
+}
+
+#left img{
+  display: block;
+  float: left;
+  height: 15px;
+  padding-top: 5px;
+  padding-left: 100px;
+  margin-right: 5px;
+}
+
+#right{
+  float: right;
+  height: inherit;
+}
+
+#right img{
+  display: inline-block;
+  width: 15px;
+  padding-right: 10px;
+
+}
+
+#right ul{
+  list-style: none;
+  display: inline;
+}
+
+#right ul li{
+  display: inline;
+  margin-left: 30px;
+  vertical-align: sub;
+  text-decoration: underline;
+}
+
+#right ul li:nth-child(3){
+  margin-right: 100px;
+
+}
+
+#right a{
+  text-decoration: none;
+  color: black;
+}
+
+#header{
+  height: 100px;
+  width: 99.5%;
+}
+
+#social{
+  display: inline-block;
+  float: left;
+  padding-left: 230px;
+}
+
+#social i{
+  height: 50px;
+  width: 50px;
+  padding-top: 20%;
+  padding-right: 20px;
+}
+
+#number{
+  float: right;
+  display: inline-block;
+  padding-right: 200px;
+}
+
+#logo{
+  display: inline-block;
+  padding-left: 20%;
+  height: inherit;
+}
+
+#logo p{
+  vertical-align: text-top;
+  font-family: Annabelle;
+  font-size: 40px;
+  text-align: center;
+}
+
+#number{
+  display: inline-block;
+  padding-right: 15%;
+  height: inherit;
+}
+
+#number p{
+  vertical-align: sub;
+  font-family: BebasNeue;
+  font-size: 30px;
+}
+
+#menu{
+  background-color: #1a1a1a;
+  height: 30px;
+  text-align: center;
+  width: 99.5%;
+}
+
+#menu ul{
+  list-style: none;
+  display: inline;
+}
+
+#menu li{
+  float: left;
+  display: block;
+  margin-left: 30px;
+  vertical-align: top;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#menu li:nth-child(1){
+  padding-left: 350px;
+}
+
+#menu a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: BebasNeue;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  height: inherit;
+  padding-top: 4px;
+  height: 30px;
+  padding-right: 40px;
+  text-align: justify;
+  background-clip: content-box;
+  box-sizing: content-box;
+}
+
+#search{
+  background-image: url(img/search.png) !important;
+}
+
+#menu a:hover{
+  color: #1a1a1a;
+  background: white;
+}
+
+#menu img{
+  width: 20px;
+  height: 20px;
+
+}
+
+#submenu{
+  vertical-align: middle;
+  font-family: BebasNeue;
+  font-weight: bolder;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  }
+
+#submenu ul{
+  list-style: none;
+  display: block;
+}
+
+#submenu li{
+  float: left;
+  display: block;
+  margin-right: 10px;
+}
+
+
+#submenu a{
+  text-decoration: none;
+  color: #9bafce;
+}
+
+#submenu img{
+  width: 15px;
+  height: 15px;
+}
+
+#photos{
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+  height: 850px;
+
+}
+
+#smallphotos{
+  float: left;
+  width: 97px;
+  height: inherit;
+
+}
+
+#smallphotos ul{
+  list-style: none;
+  display: block;
+}
+
+#smallphotos li{
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+#smallphotos img{
+  width: 91px;
+  height: 121px;
+}
+
+.selected_girl{
+  border: 3px solid #ff0092;
+}
+
+#bggirl{
+  margin-top: 15px;
+  float: left;
+  margin-left: 35px;
+  width: 581px;
+  height: 792px;
+  background-image: url('img/bg_girl.jpg');
+  background-size: cover;
+}
+
+#item_desc{
+  margin-top: 15px;
+  float: left;
+
+  width: 40%;
+  height: 850px;
+}
+
+#item_name p{
+  text-align: center;
+  font-family: Maya;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#item_price{
+  text-align: center;
+  font-family: BebasNeue;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+#item_buy{
+  height: 60px;
+}
+
+#item_buy p{
+  display: inline-block;
+  text-align: center;
+  font-family: BebasNeue;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-size: 40px;
+  border: 3px solid black;
+  width: 45px;
+  height: 45px;
+  margin-left: 20%;
+  box-sizing: content-box;
+  margin-bottom: 0px;
+  margin-left: 250px;
+  margin-top: 0px;
+}
+
+#item_buy a{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  display: block;
+  float: right;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: BebasNeue;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-right: 250px;
+}
+
+#item_like{
+  margin: auto;
+  background-image: url(img/like.png);
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  margin-top: 10px;
+
+}
+
+#item_favorite{
+  margin-top: 0px;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  font-family: BebasNeue;
+  letter-spacing: 2px;
+  color: #ff0c97
+}
+
+#item_favorite p{
+  display: inline;
+}
+
+.item_delivery{
+  margin-left: 50px;
+  font-family: BebasNeue;
+  font-weight: bolder;
+}
+
+#more_items{
+  width: 99.5%;
+  height: 400px;
+  float: left;
+}
+
+#more_items>p{
+  text-align: center;
+  font-weight: bolder;
+  font-family: Maya;
+  font-size: 20px;
+}
+
+.good{
+  float: left;
+  width: 213px;
+  height: 383px;
+  margin-right: 35px;
+}
+
+#catalog_row{
+  margin-left: 10%;
+  width: 60%;
+  height: 390px;
+}
+
+.active_good{
+  border: 3px solid #ff79cb;
+  }
+
+
+.good_photo{
+  background-image: url(img/good.jpg);
+  background-repeat: no-repeat;
+  width: 186px;
+  height: 277px;
+  margin: auto;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.good_desc{
+  color: black;
+  text-align: center !important;
+  font-family: BebasNeue !important;
+  font-weight: bolder !important;
+  letter-spacing: 2px !important;
+}
+
+#look{
+  width: 100%;
+  height: 270px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+#look img{
+  display: block;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  float: left;
+  width: 213px;
+  height: 213px;
+}
+
+#look img:nth-child(1){
+  margin-left: 10%;
+}
+
+#look img:nth-child(2){
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#follow_us{
+  float: left;
+  margin-left: 100px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  width: 452px;
+  height: 213px;
+  border: 1px solid #95bee2;
+}
+
+#inst{
+  background-image: url('img/inst.png');
+  background-size: contain;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+#follow_inst{
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 900;
+  font-family: BebasNeue;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#inst_link{
+ text-align: center;
+}
+
+#inst_link a{
+  color: #ff79cb;
+  letter-spacing: 1px;
+  font-family: Maya;
+  font-size: 20px;
+  font-weight: 900;
+}
